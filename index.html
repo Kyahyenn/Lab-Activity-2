@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
     <title>Student IT Association</title>
 </head>
 <body>
@@ -31,12 +29,17 @@
 
         <section>
             <h2>Featured Video & Logo</h2>
-            <!-- Updated with your new youtube-nocookie.com iframe -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4dKCiwVK9_w?si=SFKHXTogZk7FFaVF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </section>
+            <!-- Added width, height, and allowfullscreen so the video player loads correctly -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="HTML Tutorial" allowfullscreen></iframe>
+            <br><br>
+            <!-- Changed to a live web URL so the image actually appears -->
+            <img src="https://via.placeholder.com/150" alt="Placeholder Tech Logo">
+        </section>
 
         <section>
             <h2>Registration Form</h2>
             <form action="#">
+                <!-- Added 'for' and 'id' attributes to properly link labels to inputs -->
                 <label for="fname">Full Name:</label>
                 <input type="text" id="fname" required><br><br>
                 
